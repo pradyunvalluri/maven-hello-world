@@ -24,7 +24,7 @@ node
     }
     stage('see value in pwd')
     {
-     echo "$PWD"   
+     echo $PWD   
     }
     
 }
