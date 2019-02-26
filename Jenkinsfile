@@ -22,5 +22,9 @@ node
     {
      echo "delivery stage"   
     }
+    stage('see value in pwd')
+    {
+     echo "$PWD"   
+    }
     
 }
